@@ -1,0 +1,283 @@
+* {
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: #252422;
+}
+
+img{
+    width: auto;
+    height: 100%;
+}
+
+/* SLIDER JAVASCRIPT*/
+
+.swiper-container {
+    margin-top: 5em;
+    width: auto;
+    height: 630px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #252422;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+ /* SLIDER JAVASCRIPT */   
+/*------------ pafina inicio-------------- */ 
+.perfil_contacto {
+    width: 90%;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    padding: 5em;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.perfil {
+    width: 25%;
+}
+
+.acercade {
+    width: 60%;
+    text-align: left;
+}
+
+.perfil img{
+    width: 100%;
+    height: auto;
+    border-radius: 2em;
+}
+
+.acercade {
+    width: 40%;
+}
+
+.acercade h3 {
+    font-size: 50px;
+    margin-bottom: 1.3em;
+}
+
+.acercade p {
+    margin-bottom: 1.3em;
+}
+
+
+.quiensoy {
+    width: 90%;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    padding: 5em;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.quiensoy h3 {
+    font-size: 50px;
+    margin-bottom: 1.3em;
+}
+
+.acercade p {
+    margin-bottom: 1.3em;
+}
+
+.plande {
+    width: 100%;
+}
+
+.plande img {
+    width: 100%;
+}
+
+.fotos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iten {
+    width: 25%;
+}
+
+.iten img {
+  width: 100%;
+  opacity: .7;
+}
+
+.iten img:hover {
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.planes {
+    background-color: #252422;
+    background-size: cover;
+    background-position: center 0;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.planes .plan {
+    width: 26%;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background: rgba(0,0,0,0.40);
+    padding: 2em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.planes .plan h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.planes .plan p  {
+    height: 15em;
+    text-align: left;
+    line-height : 30px;
+    color: #fff;
+}
+
+.precio h4 {
+    padding: 20px;
+    border: solid #fff;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+    background: #242423;
+    color: #f2f2f2;
+}
+
+
+
+.gbg {
+    background: #000; 
+}
+
+.galeria {
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.item{
+    width: 25%;
+} 
+
+.galeria img {
+    width: 100%;
+    opacity: .7;
+}
+
+.galeria img:hover {
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.video {
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.video iframe {
+    width: 1080px;
+    height: 600px;
+}
+
+
+
+
+/* ----- ----- MEDIA QUERIES ----- ----- */
+
+@media screen and (max-width: 1100px) {
+
+
+    .planes .plan {
+    width: 45%;
+}
+
+@media screen and (max-width: 740px) {
+
+    .swiper-container {
+    margin-top: 60px;
+    height: 200px
+}
+
+    .planes .plan {
+    width: 70%;
+}
+.planes .plan p  {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.item{
+    width: 100%;
+} 
+
+
+.perfil {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.acercade {
+    width: 80%;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 481px) {
+
+    .planes .plan {
+    width: 70%;
+}
+}

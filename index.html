@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Susana</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+     
+    <!-- INICIO NAVEGADOR -->
+    <header class="cd-auto-hide-header">
+	<div class="logo"><a href="#0"><img src="img/perfil.jpg" alt="Logo"></a></div>
+
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">Inicio</a></li>
+            <li><a href="plan.html">Plan</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+<!-- FIN NAVEGADOR -->
+<!-- INICIO SLIDER JAVASCRIPT -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/1.jpg"> </div>
+            <div class="swiper-slide"><img src="img/2.jpg"> </div>
+            <div class="swiper-slide"><img src="img/3.jpg"> </div>
+        </div>
+    <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+<div>
+    <div class="perfil_contacto">
+    <div class="perfil">
+        <img src="img/perfil.png">
+    </div>
+    <div class="acercade">
+        <h3>Hola soy Susi</h3>
+        <div class="contacto">
+        <p>Tengo 23 años soy estudiante de 
+        Diseño gráfico, soy creativa, proactiva y asertiva en la toma de decisiones, me gusta trabajar en equipo, tengo la capacidad de resolver problemas y de manera rápida a través del diseño gráfico, además de crear piezas gráficas.
+        </p><p>
+        Programas afines, Illustrator, Indesign, Photoshop, After effects
+    </p>
+
+    </div>
+    </div>
+</div>
+<!-------Galeria fotos de inicio----->
+    <div class="fotos">
+        <div class="iten">
+            <img src="img/p1.jpg">
+        </div>
+        <div class="iten">
+            <img src="img/p2.jpg">
+        </div>
+        <div class="iten">
+            <img src="img/p3.jpg">
+        </div>
+        <div class="iten">
+            <img src="img/p4.jpg">
+        </div>
+    </div>
+
+</div>
+<footer>
+    <div class="footer">
+        <p>©Susana Acosta Diseñadora
+        </p>
+    </div>
+</footer>
+
+
+    <!-- SLIDER JAVASCRIPT -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+                slidesPerView: 1,
+                spaceBetween: 30,
+                mousewheel: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+<!-- FIN SLIDER JAVASCRIPT -->
+      
+<!---->        	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> 
+<!---->
+
+    </body>
+</html>
